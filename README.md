@@ -23,7 +23,7 @@ Steps:
     ```bash
           conda install PyAudio
     ```
- ```bash
+    ```bash
           conda install pywin32
   ```
 6. Go to Project Folder.
