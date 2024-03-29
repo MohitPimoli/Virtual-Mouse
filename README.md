@@ -1,8 +1,8 @@
 # Steps To Follow:
 
-* Pre-requisites *
-Python: ( >=3.8.5 )
-Anaconda [Download](https://www.anaconda.com/download)
+* Pre-requisites
+  ## Python: ( >=3.8.5 )
+  ## Anaconda [Download](https://www.anaconda.com/download)
 
 Steps:
 
