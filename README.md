@@ -25,9 +25,9 @@ Steps:
     ```
     ```bash
           conda install pywin32
-  ```
+    ```
 6. Go to Project Folder.
-      ```bash
+    ```bash
           cd Virtual-Mouse\src
      ```
 7. Install requirements.
