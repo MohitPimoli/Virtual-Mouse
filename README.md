@@ -12,30 +12,30 @@ Steps:
     ```
 2. Open Anaconda Shell.
 3. Create Virtual environment with python version 3.8.5.
-       ```bash
+    ```bash
         conda create --name mouse python=3.8.5
        ```
 4. Activate venv.
-          ```bash
+    ```bash
           conda activate mouse
           ```
 5. Download PyAudio and PyWin32.
-          ```bash
+    ```bash
           conda install PyAudio
           ```
-          ```bash
+ ```bash
           conda install pywin32
           ```
 6. Go to Project Folder.
-          ```bash
+      ```bash
           cd Virtual-Mouse\src
           ```
 7. Install requirements.
-          ```bash
+      ```bash
           pip install -r requirements.txt
           ```
 8. Run Nova the Virtual Assistant.
-          ```bash
+      ```bash
           python Nova.py
           ```
    
