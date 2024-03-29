@@ -1,0 +1,68 @@
+/* styles.css */
+
+/* Add general styles for responsiveness */
+body {
+    font-size: 16px;
+    /* Adjust as needed */
+}
+
+.header-wrapper {
+    padding-bottom: 15px;
+    /* Adjust as needed */
+}
+
+
+
+div.logo {
+    position: fixed;
+    top: 0;
+    left: 5%;
+    padding: 10px;
+    max-width: 30px;
+    /* Set the maximum width as needed */
+    height: auto;
+    transition: max-width 0.5s;
+}
+
+/* Ensure images are responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Adjustments for the chat box */
+div.convFormDynamic {
+    max-width: 600px;
+    /* Adjust as needed */
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+div.conv-form-wrapper div#messages {
+    max-height: 60vh;
+    /* Adjust as needed */
+}
+
+div.conv-form-wrapper div.wrapper-messages {
+    max-height: 400px;
+    /* Adjust as needed */
+}
+
+/* Responsive button styling */
+div.convFormDynamic button.submit {
+    width: 36px;
+    height: 35px;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 767px) {
+
+    div.conv-form-wrapper div.wrapper-messages,
+    div.conv-form-wrapper div#messages {
+        max-height: 40vh;
+        /* Adjust as needed */
+    }
+}
